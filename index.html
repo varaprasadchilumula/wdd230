@@ -1,39 +1,62 @@
-<!doctype html>
-<html lang="en-US">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description"
-        content="WDD 230 - Web Frontend Development Varaprasad Chilumula's Course Assignment Portal at Brigham Young University - Idaho">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css" media="screen">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Varaprasad Chilumula - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development. [Your Full Name]'s course assignment portal.">
+    <meta name="author" content="[Your Full Name]">
+    <link rel="stylesheet" href="styles/base.css">
 </head>
 
 <body>
+
     <header>
-        <img src="images/photo.jpg" alt="Profile Photo of Varaprasad Chilumula">
+        <img src="images/photo.jpg" alt="Profolio Photo of Varaprasad Chilumula">
         <h1>Varaprasad Chilumula</h1>
     </header>
-    <main>
-        <h2>WDD 230: Assignment Portal</h2>
-        <ul style="line-height: 50px; font-size: 14px;">
-            <li>Lesson 02: <a href="#"></a></li>
-            <li>Lesson 03: <a href="#">Comming Soon!</a></li>
-            <li>Lesson 04: <a href="#">Comming Soon!</a></li>
-            <li>Lesson 05: <a href="#">Comming Soon!</a></li>
-            <li>Lesson 06: <a href="#">Comming Soon!</a></li>
-            <li>Lesson 07: <a href="#">Comming Soon!</a></li>
-            <li>Lesson 08: <a href="#">Comming Soon!</a></li>
-            <li>Lesson 09: <a href="#">Comming Soon!</a></li>
-            <li>Lesson 10: <a href="#">Comming Soon!</a></li>
-            <li>Lesson 11: <a href="#">Comming Soon!</a></li>
-            <li>Lesson 12: <a href="#">Comming Soon!</a></li>
-            <li>Lesson 13: <a href="#">Comming Soon!</a></li>
-            <li>Lesson 14: <a href="#">Comming Soon!</a></li>
+
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="lesson03/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="chamber/">Chamber</a></li>
+            <li><a href="https://www.byui.edu/" target="_blank">BYU-Idaho</a></li>
+            <li><a href="https://www.churchofjesuschrist.org/study/scriptures" target="_blank">Scripture</a></li>
         </ul>
+    </nav>
+
+    <main>
+        <h2>WDD 230: Web Frontend Development</h2>
+        <section class="card">
+            <h3>Learning Activities</h3>
+            <ul>
+                <!-- Populate with learning activities as assigned -->
+                <li>Week 01 Activity: <a href="#"></a></li>
+                <li>Week 02 Assignment: <a href="#"></a></li>
+                <li>Week 03 Assignment: <a href="#">Comming Soon!</a></li>
+                <li>Week 04 Assignment: <a href="#">Comming Soon!</a></li>
+                <li>Week 05 Learning Activity: <a href="#">DOM Manipulation</a></li>
+                <li>Week 06 Assignment: <a href="#">Chamber Home Responsive Design</a></li>
+                <li>Week 07 Prepare Activity: <a href="#">Chamber Discover Page</a></li>
+                <li>Week 08 Activity: <a href="#">Chamber Join Page</a></li>
+                <li>Week 09 Activity: <a href="#"> Chamber Directory Page</a></li>
+                <li>Week 10 Assignment: <a href="#">Chamber Home Weather</a></li>
+                <li>Week 11 Assignment: <a href="#">Comming Soon!</a></li>
+                <li>Week 12 Assignment: <a href="#">Comming Soon!</a></li>
+                <!-- Add more as needed -->
+            </ul>
+        </section>
+
+        <section class="card">
+            <h3>Information</h3>
+            <!-- Placeholder content about weather, visits, etc. -->
+        </section>
+
     </main>
+
     <footer>
         <p>&copy; <span id="currentYear"></span> | Varaprasad Chilumula | Hyderabad, India | <a
                 href="https://www.byui.edu/online">BYUI Online Learning</a></p>
@@ -41,6 +64,7 @@
     </footer>
     <script src="js/lastModified.js"></script>
     <script src="js/currentYear.js"></script>
+    <script src="scripts/getdates.js"></script>
 </body>
 
 </html>
