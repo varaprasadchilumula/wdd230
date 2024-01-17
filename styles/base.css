@@ -15,7 +15,7 @@ footer {
 }
 
 header img {
-    width: 82px;
+    width: 130px;
     float: left;
 }
 
@@ -23,11 +23,34 @@ header,
 footer {
     padding: 16px;
     text-align: center;
-    background: #1d4d72;
+    background: #004896;
     color: #fff;
     border-radius: 0px;
     margin: 0 auto;
     max-width: 700px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #fc0007;
+    /*border-bottom: 1px solid #efefef;*/
+    text-align: center;
+}
+
+footer p {
+    line-height: 1;
+}
+
+footer a {
+    color: #fff
+}
+
+.highlighted {
+    color: #fff;
 }
 
 /*
@@ -70,7 +93,7 @@ main {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #1d4d72;
+    background-color: #004896;
     color: white;
 }
 
@@ -104,7 +127,7 @@ nav {
 }
 
 .navigation a:hover {
-    color: #1d4d72;
+    color: #fc0007;
     background-color: black;
 }
 
