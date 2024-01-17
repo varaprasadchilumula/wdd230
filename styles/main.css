@@ -51,7 +51,7 @@ footer a {
 }
 
 main {
-    max-width: 1092px;
+    max-width: 750px;
     margin: 0 auto;
     /*display: grid;*/
     grid-template-columns: 1fr;
