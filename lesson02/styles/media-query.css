@@ -3,13 +3,20 @@ body {
 }
 
 header,
-main,
 footer {
+    max-width: 750px;
+    margin: 1rem auto;
+    /*border: 1px solid #a6a6a6;*/
+    padding: 1rem;
+    background-color: #004896;
+}
+
+main {
     max-width: 750px;
     margin: 1rem auto;
     border: 1px solid #a6a6a6;
     padding: 1rem;
-    background-color: #7cbde0;
+    background-color: ##fff;
 }
 
 main {
@@ -21,4 +28,13 @@ main {
 section {
     padding: 1rem;
     background-color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+#footertext {
+    text-align: center;
+    color: #fff;
 }
