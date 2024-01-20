@@ -4,15 +4,16 @@ body {
     font-size: 16px;
     line-height: 1.5;
     font-family: 'Montserrat', sans-serif;
-    background-color: #FFF1E6;
+    background-color: #e5f4ff;
     width: 100% !important;
+    max-width: 1200px;
 }
 
 header,
 main,
 footer {
     margin: 0 auto;
-    max-width: 1100px;
+    max-width: 1200px;
 }
 
 header img {
@@ -23,7 +24,7 @@ header,
 footer {
     padding: 1em;
     text-align: center;
-    background: #CB997E;
+    background: #004896;
     color: #fff;
     border-radius: 0px;
 }
@@ -34,7 +35,7 @@ h1 {
 
 h2 {
     font-size: 1.5em;
-    color: #E0A276;
+    color: #004896;
     border-bottom: 1px solid #efefef;
 }
 
@@ -52,7 +53,7 @@ footer a {
 
 /* phone or baseline views **************************/
 main {
-    max-width: 1092px;
+    max-width: 1200px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr;
@@ -62,7 +63,7 @@ main {
 }
 
 main section h2 {
-    color: #E0A276;
+    color: #004896;
     text-align: center;
 }
 
