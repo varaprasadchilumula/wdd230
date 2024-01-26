@@ -3,7 +3,7 @@ body {
     line-height: 1.5;
     font-family: 'Montserrat', sans-serif;
     background-color: #e5f4ff;
-    max-width: 700px;
+    max-width: 1000px;
     margin: auto;
 }
 
@@ -11,7 +11,7 @@ header,
 main,
 footer {
     margin: 0 auto;
-    max-width: 700px;
+    max-width: 1000px;
 }
 
 header img {
@@ -27,7 +27,7 @@ footer {
     color: #fff;
     border-radius: 0px;
     margin: 0 auto;
-    max-width: 700px;
+    max-width: 1000px;
 }
 
 h1 {
@@ -76,7 +76,7 @@ nav a {
 }*/
 
 main {
-    max-width: 700px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
     background-color: #fff;
@@ -99,7 +99,7 @@ footer {
 
 nav {
     margin: 0 auto;
-    max-width: 760px;
+    max-width: 1000px;
     background-color: #000000;
 }
 
@@ -131,6 +131,36 @@ nav {
     background-color: black;
 }
 
+.navigation.open {
+    text-align: center;
+}
+
+#menu {
+    font-size: 2rem;
+    padding: 3px 7px 6px;
+    background-color: transparent;
+    color: white;
+    position: fixed;
+    right: 10px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "❌";
+}
+
+iframe {
+    display: grid;
+    max-width: 960px;
+    width: 98vw;
+}
+
 /* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
   <ul class="navigation responsive">
 */
@@ -139,9 +169,13 @@ nav {
 }
 
 /* Media Query for medium+ views */
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 600px) {
     .navigation {
         display: flex;
+        /*flex-direction: column;*/
+        align-items: center;
+        padding: 20px, 10px;
+        margin-top: 0px;
     }
 
     .navigation li {
