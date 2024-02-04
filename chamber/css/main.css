@@ -1,11 +1,10 @@
-:root {
+:root{
     --primary-color: #01161e;
     --secondary-color: #598392;
     --accent1-color: #fff;
     --accent2-color: #eff6e0;
     --background-color: #DDF4F9;
-    --current-color: #124559;
-    /*light blue*/
+    --current-color: #124559; /*light blue*/
     --lightback-color: #aec3b0;
 
     --heading-font: 'Montserrat', sans-serif;
@@ -13,17 +12,10 @@
 }
 
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
-html {
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-}
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 /*----------- apply a natural box layout model to all elements --------------*/
-* {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 html {
     background-color: var(--background-color);
@@ -41,20 +33,18 @@ main {
     margin: 0 auto;
 }
 
-header,
-footer {
+header, footer {
     background-color: var(--accent2-color);
     text-align: center;
     padding-bottom: 1em;
     padding-top: 1em;
     padding-right: 1em;
 }
-
 h2 {
     font-size: 18px;
 }
 
-br.responsive {
+br.responsive{
     display: inline;
 }
 
@@ -67,7 +57,6 @@ header {
 header img {
     width: 75%;
 }
-
 .heading {
     display: flex;
     flex-direction: column;
@@ -104,25 +93,18 @@ h2 {
     font-weight: bold;
 }
 
-nav ul li a:hover {
-    background-color: #01161e;
-}
+nav ul li a:hover{background-color: #01161e;}
 
-nav ul.hide {
-    display: none;
-}
+nav ul.hide {display: none;}
 
-nav ul li.active a {
-    background-color: var(--current-color);
-    color: var(--background-color);
-}
+nav ul li.active a{background-color: var(--current-color); color: var(--background-color);}
 
 nav ul li a {
     display: block;
     padding: .8rem 2%;
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.8);
-    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    color: rgba(255,255,255,0.8);
+    border-top: 1px solid rgba(0,0,0,0.3);
 }
 
 nav button {
@@ -148,12 +130,10 @@ nav ul {
     text-align: center;
 }
 
-nav a:link,
-nav a:visited {
+nav a:link, nav a:visited {
     color: var(--background-color);
     text-decoration: none;
 }
-
 nav a:hover {
     color: var(--accent2-color);
 }
@@ -163,8 +143,7 @@ footer {
     font-size: 14px;
 }
 
-footer a:link,
-footer a:visited {
+footer a:link, footer a:visited {
     color: var(--accent1-color);
 }
 
@@ -172,96 +151,4 @@ footer a:visited {
     content: "";
     display: table;
     clear: both;
-}
-
-/* Small/Phone View ***************/
-.headerimg {
-    position: relative;
-}
-
-main img {
-    max-width: 100%;
-    height: auto;
-}
-
-.weathersummary {
-    position: absolute;
-    margin-top: -9em;
-    margin-left: 3em;
-    max-width: 80%;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.3);
-    padding: 0.2em;
-    font-size: 0.75rem;
-}
-
-.weathersummary h2,
-.weathersummary a {
-    color: white;
-}
-
-.weathersummary p {
-    display: none;
-}
-
-nav {
-    margin: 0 auto;
-    max-width: 100%;
-    background-color: #598392;
-    text-align: center;
-}
-
-.navigation {
-    list-style: none;
-    padding: 0;
-}
-
-.navigation li:first-child {
-    display: block;
-}
-
-.navigation li {
-    display: none;
-}
-
-.navigation a {
-    display: block;
-    padding: 0.75rem;
-    text-align: center;
-    text-decoration: none;
-    color: #124559;
-    font-weight: 700;
-}
-
-.navigation a:hover {
-    color: white;
-    background-color: #124559;
-}
-
-/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
-  <ul class="navigation responsive">
-*/
-.responsive li {
-    display: block;
-}
-
-/* Media Query for medium+ views */
-@media only screen and (min-width: 32.5em) {
-    .navigation {
-        display: flex;
-    }
-
-    .navigation li {
-        display: block;
-        /* change state in small view */
-        flex: 1 1 auto;
-    }
-
-    .navigation a {
-        text-align: center;
-    }
-
-    .navigation li:first-child {
-        display: none;
-    }
 }
