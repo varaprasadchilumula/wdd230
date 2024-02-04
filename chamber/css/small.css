@@ -5,11 +5,9 @@
     --accent2-color: #eff6e0;
     --background-color: #DDF4F9;
     --current-color: #124559;
-    /*light blue*/
     --lightback-color: #aec3b0;
-
     --heading-font: 'Montserrat', sans-serif;
-    --paragraph-font: 'Poppins', sans-serif;
+    --paragraph-font: 'Montserrat', sans-serif;
 }
 
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
@@ -41,7 +39,19 @@ main {
     margin: 0 auto;
 }
 
-header,
+header {
+    background-image: url(../images/hyderabad.png);
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    text-align: center;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    padding-right: 1em;
+}
+
 footer {
     background-color: var(--accent2-color);
     text-align: center;
@@ -86,6 +96,11 @@ h2 {
     text-align: center;
 }
 
+p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
 .contentbox {
     font-family: var(--paragraph-font);
     border: 1px dashed var(--primary-color);
@@ -93,6 +108,28 @@ h2 {
     margin: 1.6rem;
     background-color: var(--lightback-color);
 }
+
+/* Add styling for the Call to Action Button */
+.cta-button {
+    display: block;
+    padding: 10px 20px;
+    margin: 20px auto;
+    background-color: #124559;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-family: var(--paragraph-font);
+    width: 150px;
+    text-align: center;
+}
+
+.cta-button:hover {
+    background-color: #01161e;
+    /* Change color on hover */
+}
+
+/* Add styling for the Call to Action Button */
 
 .moto {
     font-style: italic;
