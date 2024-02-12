@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, viewport-fit=cover">
-    <link rel="stylesheet" href="styles/normalize.css">
+    <!--<link rel="stylesheet" href="styles/normalize.css">-->
     <!--<link rel="stylesheet" href="css/main.css">-->
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -13,6 +13,7 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;600&display=swap"
         rel="stylesheet">
     <script src="scripts/lesson4.js"></script>
+    <script src="scripts/chamber.js"></script>
     <title>Hyderabad Weather | Chamber of Commerce</title>
     <meta name="description" content="Weather page for Hyderabad, India. Class: WDD230 at BYU-Idaho.">
 
@@ -27,6 +28,11 @@
             <h1>Hyderabad Weather</h1>
             <div class="moto">The Chamber of Commerce</div>
         </section>
+        <!-- Rounded switch -->
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+        </label>
 
     </header>
     <nav class="clearfix">
@@ -39,7 +45,7 @@
         </ul>
     </nav>
     <!-- Main Content Section -->
-    <main>
+    <main class="dark-mode">
 
         <!-- About Us Section -->
         <section id="about">
