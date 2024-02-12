@@ -3,17 +3,13 @@
     --secondary-color: #598392;
     --accent1-color: #fff;
     --accent2-color: #eff6e0;
-    --background-color: #DDF4F9;
+    --background-color: #fff;
     --current-color: #124559;
     /*light blue*/
     --lightback-color: #aec3b0;
-    --red: #ff4f0f;
-    --blue-light: #ebf7fa;
-    --blue-dark: #345C72;
-    --gray-dark: #000000;
-
     --heading-font: 'Montserrat', sans-serif;
     --paragraph-font: 'Poppins', sans-serif;
+    --gray-dark: var(--primary-color)
 }
 
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
@@ -34,12 +30,10 @@ html {
 }
 
 body {
-    background-color: var(--accent1-color);
     margin: 0 auto;
     border-radius: 30px;
     border: 0;
     vertical-align: baseline;
-
 }
 
 #mode {
@@ -51,22 +45,13 @@ body {
     font-size: 2rem;
 }
 
-/*
-main {
+* main {
     padding: 1em;
     max-width: 900px;
     margin: 0 auto;
-}*/
-
-main {
-    margin: 0 auto;
-    padding: 1rem;
-    width: 900px;
-    background-color: #fff;
-    color: #000;
 }
 
-header,
+* header,
 footer {
     background-color: var(--accent2-color);
     text-align: center;
