@@ -30,6 +30,40 @@ footer {
     max-width: 1000px;
 }
 
+/*  Hero Image - Logan Temple and the lable  */
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero {
+    position: relative;
+}
+
+/* Start Bengaluru India Temple Lable and Gradient */
+.herolabel {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    background: radial-gradient(#fff, #73c6ff);
+    border: 1px solid #004896;
+    padding: 1.5rem;
+    box-shadow: 0 0 3rem #fff;
+    opacity: 0.75;
+    /* Buenas */
+}
+
+.herolabel p {
+    margin: 0;
+    padding: .25rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: "Great Vibes", serif;
+    color: #004896;
+}
+
+/* End Bengaluru India Temple Lable and Gradient */
+
 h1 {
     font-size: 2.5em;
 }
