@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, viewport-fit=cover">
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico">
+    <!-- Social Media Meta Settings -->
+    <meta property="og:title" content="Hyderabad Weather Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/thumbnail.jpg">
+    <meta property="og:url" content="http://www.hyderabadweather.com">
+    <!-- Add additional social media meta settings as needed -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--<link rel="stylesheet" href="css/main.css">-->
+    <!--<link rel="stylesheet" href="styles/small.css">-->
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;600&display=swap"
+        rel="stylesheet">
+    <script src="js/lesson4.js"></script>
+    <title>Join</title>
+    <meta name="description" content="Weather page for Hyderabad, India. Class: WDD230 at BYU-Idaho.">
+
+</head>
+
+<body>
+    <header>
+        <picture>
+            <img src="images/hyderabad-logo.png" alt="ClimateToday logo">
+        </picture>
+        <section class="heading">
+            <h1>Hyderabad Weather</h1>
+            <div class="moto">The Chamber of Commerce</div>
+        </section>
+
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="">Directory</a></li>
+            <li><a href="">Join</a></li>
+        </ul>
+    </nav>
+    <!-- Main Content Section -->
+    <main class="dark-mode join">
+        <div class="form">
+            <h1>Membership Form</h1>
+            <form method="get" action="thankyou.html">
+                <fieldset>
+                    <legend>Applicant Information</legend>
+                    <label class="top">First Name*<input type="text" name="fname" id="fname" required></label>
+                    <label class="top">Last Name*<input type="text" name="lname" id="lname" required></label>
+                    <label class="top">Title or Position*<input type="text" name="tname" pattern="^[A-Za-z\- ]{7,}$"
+                            id="tname" required></label>
+                    <label class="top">Email*<input type="email" name="email" id="email" placeholder="someone@gmail.com"
+                            required></label>
+                    <label class="top">Phone<input type="tel" name="phone" id="phone" placeholder="1235551234"></label>
+                </fieldset>
+                <fieldset class="company-info">
+                    <legend>Company Information</legend>
+                    <label class="top">Business/Organization's Name*<input type="text" name="bizname" id="bizname"
+                            required></label>
+                    <div>Membership Level</div>
+                    <label class="sbs"><input type="radio" name="membership" value="np"> None Profit (No fee
+                        required.)</label>
+                    <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze Membership
+                    </label>
+                    <label class="sbs"><input type="radio" name="membership" value="silver"> Silver Membership</label>
+                    <label class="sbs"><input type="radio" name="membership" value="gold"> Gold Membership</label>
+                    <label class="top">Business/Organization Description<input type="text" name="describe"
+                            id="describe"></label>
+                    <label class="top"><input type="hidden" name="datetime" id="datetime"></label>
+                </fieldset>
+                <input type="submit" value="Apply Now!" class="submitBtn">
+            </form>
+        </div>
+
+        <div class="table">
+            <table>
+                <caption>Cache Membership Benefits & Costs</caption>
+                <thead>
+                    <tr>
+                        <th colspan="5" scope="colgroup">Cache Chamber of Commerce</th>
+                    </tr>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">NP</th>
+                        <th scope="col">Bronze</th>
+                        <th scope="col">Silver</th>
+                        <th scope="col">Gold</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Cost/yr</td>
+                        <td>$0</td>
+                        <td>$50</td>
+                        <td>$70</td>
+                        <td>$90</td>
+                    </tr>
+                    <tr>
+                        <td>Member Directory Access</td>
+                        <td>✔</td>
+                        <td>✔</td>
+                        <td>✔</td>
+                        <td>✔</td>
+                    </tr>
+                    <tr>
+                        <td>Monthly Newsletter</td>
+                        <td>✔</td>
+                        <td>✔</td>
+                        <td>✔</td>
+                        <td>✔</td>
+                    </tr>
+                    <tr>
+                        <td>VIP Events</td>
+                        <td>❌</td>
+                        <td>✔</td>
+                        <td>✔</td>
+                        <td>✔</td>
+                    </tr>
+                    <tr>
+                        <td>Discounts on Events</td>
+                        <td>❌</td>
+                        <td>❌</td>
+                        <td>✔</td>
+                        <td>✔</td>
+                    </tr>
+                    <tr>
+                        <td>Featured on CC Website</td>
+                        <td>❌</td>
+                        <td>❌</td>
+                        <td>❌</td>
+                        <td>✔</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <div class="lastInfo"> &copy; 2024 Hyderabad Weather Chamber of Commerce. All rights reserved. |<br
+                class='responsive'> Varaprasad Chilumula
+            <div id="updated"></div>
+        </div>
+    </footer>
+</body>
+
+</html>

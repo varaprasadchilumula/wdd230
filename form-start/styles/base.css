@@ -84,7 +84,7 @@ nav ul li.active a {
 
 /*----------- MAIN --------------*/
 main {
-    padding: 2% 2%;
+    padding: 2% 3%;
     min-height: 20rem;
     background-color: #fff;
 }
@@ -108,7 +108,7 @@ form legend {
 form label.top,
 form div {
     display: block;
-    color: #9c2c13;
+    color: #004896;
     padding-top: 1rem;
     font-size: .8rem;
 }
