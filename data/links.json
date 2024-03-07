@@ -1,0 +1,138 @@
+{
+    "weeks": [
+        {
+            "lesson": "01",
+            "links": [
+                {
+                    "url": "https://varaprasadchilumula.github.io/wdd230/lesson01/holygrail.html",
+                    "title": "Holy Layout"
+                },
+                {
+                    "url": "https://codepen.io/varaprasadchilumula/pen/abMWLWE",
+                    "title": "JS Pen"
+                }
+            ]
+        },
+        {
+            "lesson": "02",
+            "links": [
+                {
+                    "url": "https://varaprasadchilumula.github.io/wdd230/lesson02/media-query.html",
+                    "title": "Media Query"
+                },
+                {
+                    "url": "https://varaprasadchilumula.github.io/wdd230/lesson02/design-principles.html",
+                    "title": "Design Principles Document"
+                }
+            ]
+        },
+        {
+            "lesson": "03",
+            "links": [
+                {
+                    "url": "https://varaprasadchilumula.github.io/wdd230/images/combinator-exercises.jpg",
+                    "title": "Combinators"
+                },
+                {
+                    "url": "https://codepen.io/varaprasadchilumula/pen/eYXeJGj",
+                    "title": "Pseudo-elements"
+                },
+                {
+                    "url": "https://codepen.io/varaprasadchilumula/pen/zYbPrdM",
+                    "title": "Hamburger Menu"
+                },
+                {
+                    "url": "https://varaprasadchilumula.github.io/wdd230/lesson03/chamber-site-plan.html",
+                    "title": "Chamber Site Design"
+                }
+            ]
+        },
+        {
+            "lesson": "04",
+            "links": [
+                {
+                    "url": "https://codepen.io/varaprasadchilumula/pen/abMYYGd",
+                    "title": "CSS Pseudo-classes"
+                }
+            ]
+        },
+        {
+            "lesson": "05",
+            "links": [
+                {
+                    "url": "https://varaprasadchilumula.github.io/wdd230/lesson05/bom.html",
+                    "title": "Book of Mormon"
+                }
+            ]
+        },
+        {
+            "lesson": "06",
+            "links": [
+                {
+                    "url": "https://varaprasadchilumula.github.io/wdd230/lesson06/images/landscape.webp",
+                    "title": "Webp"
+                },
+                {
+                    "url": "https://varaprasadchilumula.github.io/wdd230/lesson06/responsive-images.html",
+                    "title": "Responsive Images"
+                }
+            ]
+        },
+        {
+            "lesson": "07",
+            "links": [
+                {
+                    "url": "https://varaprasadchilumula.github.io/wdd230/lesson07/lazyload.html",
+                    "title": "Lazy Loading"
+                },
+                {
+                    "url": "https://varaprasadchilumula.github.io/wdd230/lesson07/w7bom.html",
+                    "title": "Local Storage"
+                }
+            ]
+        },
+        {
+            "lesson": "08",
+            "links": [
+                {
+                    "url": "https://varaprasadchilumula.github.io/wdd230/lesson08/tablebuild.html",
+                    "title": "Table"
+                },
+                {
+                    "url": "https://varaprasadchilumula.github.io/wdd230/form-start/index.html",
+                    "title": "Form"
+                },
+                {
+                    "url": "https://varaprasadchilumula.github.io/wdd230/form.html",
+                    "title": "Page Feedback"
+                }
+            ]
+        },
+        {
+            "lesson": "09",
+            "links": [
+                {
+                    "url": "https://varaprasadchilumula.github.io/wdd230/lesson09/new-ward-members.json",
+                    "title": "JSON"
+                },
+                {
+                    "url": "https://varaprasadchilumula.github.io/wdd230/lesson09/prophets.html",
+                    "title": "Prophets"
+                }
+            ]
+        },
+        {
+            "lesson": "10",
+            "links": [
+                {
+                    "url": "https://varaprasadchilumula.github.io/wdd230/lesson10/weather.html",
+                    "title": "Weather API Test"
+                },
+                {
+                    "url": "",
+                    "title": ""
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "wardInformation": {
+        "familyName": "Chilumula",
+        "moveInDate": "2009-09-23",
+        "numberOfPeople": 4,
+        "visitedByBishopric": true,
+        "familyMembers": [
+            {
+                "name": "Varaprasad Chilumula",
+                "gender": "Male",
+                "birthdate": "1987-02-03"
+            },
+            {
+                "name": "Navaneetha Chilumula",
+                "gender": "Female",
+                "birthdate": "1991-06-15"
+            },
+            {
+                "name": "Ananya Charitha Chilumula",
+                "gender": "Female",
+                "birthdate": "2010-04-18"
+            },
+            {
+                "name": "Alissia Hanney Chilumula",
+                "gender": "Female",
+                "birthdate": "2015-06-27"
+            }
+        ]
+    }
+}
