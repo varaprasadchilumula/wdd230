@@ -12,10 +12,9 @@
     <meta property="og:image" content="images/thumbnail.jpg">
     <meta property="og:url" content="http://www.hyderabadweather.com">
     <!-- Add additional social media meta settings as needed -->
-
-    <link rel="stylesheet" href="css/normalize.css">
     <!--<link rel="stylesheet" href="css/main.css">-->
     <!--<link rel="stylesheet" href="styles/small.css">-->
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/larger.css">
@@ -23,6 +22,7 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;600&display=swap"
         rel="stylesheet">
     <script src="scripts/lesson4.js"></script>
+    <script src="scripts/directory.js"></script>
     <title>Hyderabad Weather | Chamber of Commerce</title>
     <meta name="description" content="Weather page for Hyderabad, India. Class: WDD230 at BYU-Idaho.">
 
@@ -49,36 +49,15 @@
         </ul>
     </nav>
     <!-- Main Content Section -->
-    <main>
-
-        <!-- Call to Action Section -->
-        <section id="join">
-            <h2>Join the Chamber of Commerce</h2>
-            <p>Unlock exclusive benefits and resources for your business. Become a member today!</p>
-            <a href="#" class="cta-button">Join Us Now</a>
-        </section>
-
-        <!-- Current Events Section -->
-        <section id="events">
-            <h2>Current Events</h2>
-            <p>Stay updated on the latest happenings in the Hyderabad business community.</p>
-            <!-- Placeholder for event content -->
-        </section>
-
-        <!-- Weather Card Section -->
-        <section id="weather">
-            <h2>Weather Insights</h2>
-            <p>Check the latest weather updates and how they may impact your business.</p>
-            <!-- Placeholder for weather card content -->
-        </section>
-
-        <!-- Company Spotlights Section -->
-        <section id="spotlights">
-            <h2>Company Spotlights</h2>
-            <p>Explore featured businesses making an impact in the community.</p>
-            <!-- Placeholder for spotlight content -->
-        </section>
-
+    <main class="directory">
+        <div class="content-container">
+            <h1>Directory</h1>
+            <div class="directory-buttons">
+                <button id="panel" value="Panel View">GRID<br>View</button>
+                <button id="list" value="List View" autofocus>LIST<br>View</button>
+            </div>
+            <div class="directory-grid"></div>
+        </div>
     </main>
     <footer>
         <div class="lastInfo"> &copy; 2024 Hyderabad Weather Chamber of Commerce. All rights reserved. |<br

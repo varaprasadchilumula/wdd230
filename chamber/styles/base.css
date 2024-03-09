@@ -52,6 +52,32 @@ header {
     padding-right: 1em;
 }
 
+.directory-grid section {
+    grid-template-columns: 1fr 3fr 3fr 3fr 3fr;
+}
+
+.directory-grid img {
+    padding: 0px;
+    display: block;
+    margin: 5px auto;
+    width: 50px;
+    box-shadow: 5px 5px 10px #000000;
+    border-radius: 5px;
+}
+
+.panelview {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.panelview img {
+    padding: 0px;
+    display: block;
+    margin: 5px auto;
+    width: 100px;
+    box-shadow: 5px 5px 10px #000000;
+    border-radius: 5px;
+}
+
 @media only screen and (max-width:767px) {
     header {
         background-image: url(../images/week06-medium.webp)
