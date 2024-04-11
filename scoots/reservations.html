@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, viewport-fit=cover">
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico">
+    <!-- Social Media Meta Settings -->
+    <meta property="og:title" content="Hyderabad Weather Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/thumbnail.jpg">
+    <meta property="og:url" content="http://www.hyderabadweather.com">
+    <!-- Add additional social media meta settings as needed -->
+    <!--<link rel="stylesheet" href="css/main.css">-->
+    <!--<link rel="stylesheet" href="styles/small.css">-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;600&display=swap"
+        rel="stylesheet">
+    <script src="scripts/lesson4.js"></script>
+    <script src="scripts/directory.js"></script>
+    <title>Hyderabad Weather | Chamber of Commerce</title>
+    <meta name="description" content="Weather page for Hyderabad, India. Class: WDD230 at BYU-Idaho.">
+
+</head>
+
+<body>
+    <header>
+        <picture>
+            <img src="images/hyderabad-logo.png" alt="ClimateToday logo">
+        </picture>
+        <section class="heading">
+            <h1>Hyderabad Weather</h1>
+            <div class="moto">The Chamber of Commerce</div>
+        </section>
+
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="rentals.html">Rentals</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- Main Content Section -->
+    <main class="directory">
+        <div class="content-container">
+            <h1>Directory</h1>
+            <div class="directory-buttons">
+                <button id="panel" value="Panel View">GRID<br>View</button>
+                <button id="list" value="List View" autofocus>LIST<br>View</button>
+            </div>
+            <div class="directory-grid"></div>
+        </div>
+    </main>
+    <footer>
+        <div class="lastInfo"> &copy; 2024 Hyderabad Weather Chamber of Commerce. All rights reserved. |<br
+                class='responsive'> Varaprasad Chilumula
+            <div id="updated"></div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, viewport-fit=cover">
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico">
+    <!-- Social Media Meta Settings -->
+    <meta property="og:title" content="Hyderabad Weather Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/thumbnail.jpg">
+    <meta property="og:url" content="http://www.hyderabadweather.com">
+    <!-- Add additional social media meta settings as needed -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--<link rel="stylesheet" href="css/main.css">-->
+    <!--<link rel="stylesheet" href="styles/small.css">-->
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;600&display=swap"
+        rel="stylesheet">
+    <script src="scripts/lesson4.js"></script>
+    <title>Hyderabad Weather | Chamber of Commerce</title>
+    <meta name="description" content="Weather page for Hyderabad, India. Class: WDD230 at BYU-Idaho.">
+
+</head>
+
+<body>
+    <header>
+        <picture>
+            <img src="images/hyderabad-logo.png" alt="ClimateToday logo">
+        </picture>
+        <section class="heading">
+            <h1>Hyderabad Weather</h1>
+            <div class="moto">The Chamber of Commerce</div>
+        </section>
+
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="rentals.html">Rentals</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- Main Content Section -->
+    <main class="disc-main">
+        <div class="disc-contents">
+            <section>
+                <h2>Your Visit History</h2>
+                <p id="last"></p>
+            </section>
+            <section>
+                <h2>Our City</h2>
+                <p>The city boasts a vibrant cultural scene, with influences from both North and South India. It is
+                    renowned for its cuisine, which includes iconic dishes such as Hyderabadi biryani and Haleem.
+                    Hyderabad is also known for its festivals, including Diwali, Eid, and Bonalu.</p>
+            </section>
+            <section>
+                <h2>History of Hayderabad</h2>
+                <p>Hyderabad has a rich historical background, having been ruled by various dynasties including the
+                    Kakatiyas, Qutb Shahis, and Asaf Jahis (Nizams of Hyderabad). It was historically known as a
+                    center for trade, art, and architecture.</p>
+            </section>
+            <section>
+                <h2>Economy</h2>
+                <p>Hyderabad has emerged as a major hub for information technology (IT) and biotechnology
+                    industries, earning it the nickname "Cyberabad". It is home to several multinational IT
+                    companies, research institutions, and business parks.</p>
+            </section>
+            <section>
+                <h2>Landmarks</h2>
+                <p> The city is dotted with numerous historical landmarks and architectural marvels, including the
+                    Charminar (a monument and mosque), Golconda Fort, Qutb Shahi Tombs, and the Chowmahalla Palace.</p>
+            </section>
+            <section>
+                <h2>Education</h2>
+                <p> Hyderabad is home to several esteemed educational institutions, including the University of
+                    Hyderabad, Indian School of Business (ISB), and International Institute of Information
+                    Technology (IIIT)</p>
+            </section>
+            <section>
+                <h2>Transportation</h2>
+                <p> The city has a well-developed transportation infrastructure, including an international airport
+                    (Rajiv Gandhi International Airport), railways, and an extensive road network.</p>
+            </section>
+
+        </div>
+        <div class="disc-img">
+
+            <figure>
+                <div class="hov-scale">
+                    <img src="images/hyd-discover-4.webp" alt="Hyderabad Weather" loading="eager" width="500"
+                        height="375">
+                </div>
+                <figcaption>Statue of Buddha During Sunset</figcaption>
+            </figure>
+            <figure>
+                <div class="hov-scale">
+                    <img src="images/hyd-discover-2.webp" alt="Hyderabad Weather" loading="lazy" width="500"
+                        height="375">
+                </div>
+                <figcaption>A view of a bridge (Durgam Chervu)</figcaption>
+
+            </figure>
+            <figure>
+                <div class="hov-scale">
+                    <img src="images/hyd-discover-3.webp" alt="Hyderabad Weather" loading="lazy" width="500"
+                        height="375">
+                </div>
+                <figcaption>Crowd at the Charminar Kaman in Hyderabad</figcaption>
+            </figure>
+            <figure>
+                <div class="hov-scale">
+                    <img src="images/hyd-discover-5.webp" alt="Hyderabad Weather" loading="lazy" width="500"
+                        height="375">
+                </div>
+                <figcaption>Hyderabad City in India</figcaption>
+            </figure>
+            <figure>
+                <div class="hov-scale">
+                    <img src="images/hyd-discover-1.webp" alt="Hyderabad Weather" loading="lazy" width="500"
+                        height="375">
+                </div>
+                <figcaption>People in a Festival (Bonalu)</figcaption>
+
+            </figure>
+        </div>
+    </main>
+
+    <footer>
+        <div class="lastInfo"> &copy; 2024 Hyderabad Weather Chamber of Commerce. All rights reserved. |<br
+                class='responsive'> Varaprasad Chilumula
+            <div id="updated"></div>
+        </div>
+    </footer>
+</body>
+
+</html>
